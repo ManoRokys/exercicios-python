@@ -5,15 +5,15 @@ opcao = int(input("Escolha uma das opções: \n1-Fazer Media Ponderada, com peso
 
 if opcao == 1:
     resultado = (num1 * 2 + num2 * 3) / 5
-    print(f"O resultado da opção escolhida foi: {resultado}")
+    print(f"O resultado da opção escolhida foi: {resultado:.2f}")
 elif opcao == 2:
     resultado = num1 + num2
     resultado = pow(resultado,2)
-    print(f"O resultado da opção escolhida foi: {resultado}")
+    print(f"O resultado da opção escolhida foi: {resultado:.2f}")
 elif opcao == 3:
     if num1 > num2:
         num2 = pow(num2,3)
-        print(f"O resultado da opção escolhida foi: {num2}")
+        print(f"O resultado da opção escolhida foi: {num2:.2f}")
     elif num2 > num1:
         num1 = pow(num1,3)
         print(f"O resultado da opção escolhida foi: {num1}")
